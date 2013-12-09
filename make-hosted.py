@@ -28,7 +28,7 @@ from __future__ import with_statement
 import os
 import shutil
 
-suites = ["kraken-1.0", "sunspider-0.9.1"]
+suites = ["kraken-1.1", "kraken-1.0", "sunspider-0.9.1"]
 
 def readTemplate(path):
     with open(path, 'r') as f:
